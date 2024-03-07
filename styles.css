@@ -1,0 +1,46 @@
+/* CSS for ensuring images are not too big and aligning properly */
+
+/* Set a maximum width for images */
+.img-container img {
+    max-width: 100%; /* Adjust as needed */
+    height: auto;
+}
+
+/* Align images and text properly */
+.img-container {
+    text-align: center; /* Center align images */
+    margin-bottom: 20px; /* Add margin to bottom for spacing */
+}
+
+.project-title,
+.intro,
+.observations,
+.accessibility,
+.Sketching,
+.style-guide,
+.Hi-Fi,
+.new-site,
+.Major {
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Ensure consistent width on smaller screens */
+@media screen and (max-width: 800px) {
+    .project-title,
+    .intro,
+    .observations,
+    .accessibility,
+    .Sketching,
+    .style-guide,
+    .Hi-Fi,
+    .new-site,
+    .Major {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}
+
+body{
+    background-color: antiquewhite;
+}
