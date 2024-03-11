@@ -1,15 +1,21 @@
-/* CSS for ensuring images are not too big and aligning properly */
 
-/* Set a maximum width for images */
 .img-container img {
-    max-width: 100%; /* Adjust as needed */
+    max-width: 100%; 
     height: auto;
 }
 
-/* Align images and text properly */
 .img-container {
-    text-align: center; /* Center align images */
-    margin-bottom: 20px; /* Add margin to bottom for spacing */
+    text-align: center; 
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    text-align: left;
+}
+
+img{
+    padding-bottom: 20px;
 }
 
 .project-title,
@@ -21,12 +27,11 @@
 .Hi-Fi,
 .new-site,
 .Major {
-    max-width: 800px; /* Adjust max-width as needed */
+    max-width: 800px; 
     margin: 0 auto;
     padding: 20px;
 }
 
-/* Ensure consistent width on smaller screens */
 @media screen and (max-width: 800px) {
     .project-title,
     .intro,
@@ -42,5 +47,6 @@
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(206, 216, 227);
 }
+
